@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Prueba: mx-auto / ms-auto / me-auto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding: 2rem; background:#f4f6f8; }
+    .demo-wrap { margin-bottom: 2rem; border-radius:8px; overflow:hidden; box-shadow:0 4px 14px rgba(0,0,0,.06); background:white;}
+    .note { font-size:.9rem; color:#444; padding: .5rem 1rem; border-bottom:1px solid #eee; background:#fafafa;}
+    .container-md { max-width:1100px; }
+  </style>
+</head>
+<body>
+
+  <div class="container-md">
+    <h2 class="mb-4">Comparación: <code>mx-auto</code> / <code>ms-auto</code> / <code>me-auto</code></h2>
+
+    <!-- MX-AUTO -->
+    <div class="demo-wrap">
+      <div class="note">Clase aplicada: <strong>mx-auto</strong></div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background:#198754;">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="bi bi-shop fs-3 me-2" style="color:#ffc107"></i>
+            <span class="fw-bold">Sabor Salvadoreño</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navA">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navA">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Menú</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Nosotros</a></li>
+            </ul>
+            <a class="btn btn-warning" href="#">Reservar</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MS-AUTO -->
+    <div class="demo-wrap">
+      <div class="note">Clase aplicada: <strong>ms-auto</strong></div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background:#0d6efd;">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="bi bi-shop fs-3 me-2" style="color:#ffc107"></i>
+            <span class="fw-bold">Sabor Salvadoreño</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navB">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navB">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Menú</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Nosotros</a></li>
+            </ul>
+            <a class="btn btn-warning" href="#">Reservar</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ME-AUTO -->
+    <div class="demo-wrap">
+      <div class="note">Clase aplicada: <strong>me-auto</strong></div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background:#6f42c1;">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="bi bi-shop fs-3 me-2" style="color:#ffc107"></i>
+            <span class="fw-bold">Sabor Salvadoreño</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navC">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navC">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Menú</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Nosotros</a></li>
+            </ul>
+            <a class="btn btn-warning" href="#">Reservar</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+
+  <!-- Parte 6: Sección de Horarios -->
+<div class="row g-4 justify-content-center">
+  <!-- Card 1 -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card bg-transparent border-success h-100 text-center">
+      <div class="card-body">
+        <h5 class="card-title">Horario 1</h5>
+        <p class="card-text">Contenido de ejemplo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card bg-transparent border-success h-100 text-center">
+      <div class="card-body">
+        <h5 class="card-title">Horario 2</h5>
+        <p class="card-text">Contenido de ejemplo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card bg-transparent border-success h-100 text-center">
+      <div class="card-body">
+        <h5 class="card-title">Horario 3</h5>
+        <p class="card-text">Contenido de ejemplo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Parte 6: Sección de Horarios -->
+<div class="container py-4">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- Card 1 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card bg-transparent border-success h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Horario Mañana</h5>
+          <p class="card-text">De 8:00 AM a 12:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card bg-transparent border-success h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Horario Tarde</h5>
+          <p class="card-text">De 1:00 PM a 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card bg-transparent border-success h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Horario Nocturno</h5>
+          <p class="card-text">De 6:00 PM a 10:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row g-4 mb-4">
+  <div class="col-12 col-md-6 col-lg-3">
+    <!-- Info restaurante -->
+  </div>
+
+  <div class="col-6 col-md-6 col-lg-2">
+    <!-- Enlaces -->
+  </div>
+
+  <div class="col-6 col-md-6 col-lg-3">
+    <!-- Contacto -->
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <!-- Newsletter -->
+  </div>
+</div>
+
+  <!-- Bootstrap JS + icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</body>
+
+</html>
+
+
